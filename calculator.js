@@ -1,7 +1,7 @@
-function test_function(a, b) {
+function add(a, b) {
   return a + b;
 }
 
 module.exports = {
-  test_function
+  add
 }
