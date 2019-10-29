@@ -1,7 +1,7 @@
 let jasmine = require("jasmine");
 let { test_function } = require("../calculator.js");
 
-describe("Adding functions", function() {
+describe("Adding two numbers", function() {
   it("should return 2", function() {
     expect(test_function(0, 0)).toBe(0);
   });
