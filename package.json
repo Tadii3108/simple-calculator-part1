@@ -1,0 +1,23 @@
+{
+  "name": "simple-calculator-part1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calculator.js",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tadii3108/simple-calculator-part1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tadii3108/simple-calculator-part1/issues"
+  },
+  "homepage": "https://github.com/Tadii3108/simple-calculator-part1#readme"
+}
