@@ -1,10 +1,5 @@
-function add(...args) {
-  var sum = 0;
-
-  for (var i = 0; i <= arguments.length; i++) {
-    sum += i
-  }
-  return sum;
+function multiply(x,y) {
+  return x * y
 }
 
-module.exports = { add }
+module.exports = { multiply }

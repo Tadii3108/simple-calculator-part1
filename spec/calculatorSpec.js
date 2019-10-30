@@ -1,17 +1,14 @@
 let jasmine = require("jasmine");
-let { add } = require("../calculator.js");
+let { multiply } = require("../calculator.js");
 
-describe("Adding many numbers", function() {
+describe("Multiplying two numbers", function() {
+  it("should return 2", function() {
+    expect(multiply(1, 2)).toBe(2);
+  });
   it("should return 10", function() {
-    expect(add(1, 2, 3, 4)).toBe(10);
+    expect(multiply(5, 2)).toBe(10);
   });
-  it("should return 15", function() {
-    expect(add(1, 2, 3, 4, 5)).toBe(15);
-  });
-  it("should return 21", function() {
-    expect(add(1, 2, 3, 4, 5, 6)).toBe(21);
-  });
-  it("should return 55", function() {
-    expect(add(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)).toBe(55);
+  it("should return 144", function() {
+    expect(multiply(12, 12)).toBe(144);
   });
 });
