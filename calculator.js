@@ -1,3 +1,12 @@
+function add(...args) {
+  var sum = 0;
+
+  for (var i = 0; i < args.length; i++) {
+   sum += args[i];
+  }
+  return sum;
+}
+
 function multiply(...args) {
   var product = 1;
 
@@ -7,4 +16,4 @@ function multiply(...args) {
   return product;
 }
 
-module.exports = { multiply }
+module.exports = { add,multiply }
